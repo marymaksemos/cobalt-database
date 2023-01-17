@@ -1,2 +1,2 @@
 # cobalt-database
-School assignment
+Class project
