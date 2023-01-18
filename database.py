@@ -3,7 +3,7 @@ import pickle
 
 class Database:
     """
-    A class for saving and fetching python objects to and from a file on disk.
+    A class for saving  python objects to and from a file on disk.
     The objects are saved and accessed via a key (of type str).
     """
     def __init__(self, file_path):
