@@ -2,7 +2,7 @@ import pickle
 
 
 class Database:
-     """
+    """
     A class for saving  python objects to and from a file on disk.
     The objects are saved and accessed via a key (of type str).
     """
@@ -13,7 +13,7 @@ class Database:
         :paramter file_path: the path to the file where the data will be stored.
         """
         self.data = {}
-        self.file_path = f'{file_path}_db.pkl'
+        self.file_path = file_path
         try:
             with open(self.file_path, "rb") as f:
                 self.data = pickle.load(f)
